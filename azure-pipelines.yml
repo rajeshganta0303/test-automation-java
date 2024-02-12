@@ -20,5 +20,3 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
-    - name: 'Test comman line'
-      run: mvn clean install -U
